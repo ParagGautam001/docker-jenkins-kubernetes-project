@@ -20,7 +20,7 @@ spec:
       containers:
       - name: myapp
 
-        image: YOUR_DOCKERHUB_USERNAME/myapp:v1
+        image: paraggautam1/myapp:v1
 
         ports:
         - containerPort: 80
