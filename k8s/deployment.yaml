@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v2
 kind: Deployment
 
 metadata:
@@ -20,7 +20,7 @@ spec:
       containers:
       - name: myapp
 
-        image: paraggautam1/myapp:v1
+        image: paraggautam1/myapp:v2
 
         ports:
         - containerPort: 80
