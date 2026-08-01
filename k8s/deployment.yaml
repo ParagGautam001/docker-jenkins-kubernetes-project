@@ -20,7 +20,7 @@ spec:
       containers:
       - name: myapp
 
-        image: paraggautam1/myapp:latest
+        image: paraggautam1/myapp:1
 
         ports:
         - containerPort: 80
